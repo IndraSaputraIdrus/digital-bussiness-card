@@ -1,0 +1,23 @@
+/* Footer */
+.footer {
+  background-color: var(--accent-color-900);
+  padding: 1.3rem 0;
+}
+
+.logo__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.icon {
+  transition: ease-in 0.2s;
+}
+
+.icon:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+/* end Footer */
